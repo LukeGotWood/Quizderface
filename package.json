@@ -1,0 +1,25 @@
+{
+  "name": "Quizderface",
+  "version": "1.0.0",
+  "description": "Basic chatroom using WebRTC to host a weekly quiz",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeGotWood/Quizderface.git"
+  },
+  "keywords": [],
+  "author": "LukeGotWood",
+  "license": "gpl-3.0",
+  "bugs": {
+    "url": "https://github.com/LukeGotWood/Quizderface/issues"
+  },
+  "homepage": "https://github.com/LukeGotWood/Quizderface#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
