@@ -5,18 +5,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicon -->
+    <link rel=icon href=favicon.ico>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Quizderface</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Background video -->
+    <div class="video-background-holder">
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="video/background.mp4" type="video/mp4">
+        </video>
+      <div class="video-background-content container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-4">Pub quiz</h1>
+            <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- <video id="video" autoplay playsinline></video>
+    <button id="showVideo">Open camera</button>
+
+    <div id="errorMsg"></div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- WebRTC -->
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+    <!-- Custom JavaScript -->
+    <!-- <script type="text/javascript" src="js/index.js"></script> -->
   </body>
 </html>
